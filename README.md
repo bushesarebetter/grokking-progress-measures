@@ -1,3 +1,5 @@
+[![Tests](https://github.com/bushesarebetter/grokking-progress-measures/actions/workflows/tests.yml/badge.svg)](https://github.com/bushesarebetter/grokking-progress-measures/actions/workflows/tests.yml)
+
 # Grokking progress measures
 
 A CPU-sized reimplementation of [Progress measures for grokking via mechanistic interpretability](https://arxiv.org/abs/2301.05217) (Nanda et al., 2023). A one-layer transformer learns (a + b) mod p, memorizes first, then generalizes much later. The Fourier analysis shows the sparse set of frequencies it ends up using, and the restricted and excluded losses track the generalizing circuit forming before test accuracy moves.
